@@ -8,12 +8,23 @@ background: linear-gradient(to top right, #E4FBFF, #F4F9F9);
     
 }
 
-.teams-info{
+.info-box{
     background: #222932;
 background: -webkit-linear-gradient(top, #222932, #31475E);
 background: -moz-linear-gradient(top, #222932, #31475E);
 background: linear-gradient(to bottom, #222932, #31475E);
     color: #f6f6f6;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media only screen and (max-width: 600px) {
+  .info-box{
+      display:grid;
+      grid-template-columns: repeat(1,1fr);
+      
+    }
+
 }
  a:link {
     text-decoration: none;
@@ -36,7 +47,7 @@ background: linear-gradient(to bottom, #222932, #31475E);
 .details-div{
   position: relative;
   text-align: center;
-  height: 80vh;
+  
 }
 .details-text{
   color: #31475E;

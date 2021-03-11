@@ -25,11 +25,11 @@ const Details = () => {
     return (
   
         <div className="p-3 details-bg ">
-            <div className="row rounded shadow teams-info p-3 m-5">
-            <div className="col-4  ">
-                <img className="img-fluid" src={strTeamBadge} alt="" srcset=""/>
+            <div className=" rounded shadow info-box p-3 m-5">
+                 <div >
+                    <img className="img-fluid" src={strTeamBadge} alt="" srcset=""/>
                 </div>
-                <div className="col-4    p-5 ">
+                <div className="p-5 ">
                 <p> <FontAwesomeIcon icon={faChevronRight} />Team:  {strTeam}</p>
                     <p> <FontAwesomeIcon icon={faMapPin} /> Founded: {intFormedYear}</p>
                     <p> <FontAwesomeIcon icon={faFlag} />Country: { strCountry}</p>
@@ -39,13 +39,13 @@ const Details = () => {
                     
                    
                 </div>
-                <div className="col-4   pt-3">
+                <div className="pt-3">
                      { strGender=== "Male" ? 
                         <img className="img-fluid" src={`${MalePhoto}`}  alt=""/> : <img className="img-fluid" src={`${FemalePhoto}`}  alt=""/>
                      }
-                    
 
-</div>
+
+                </div>
             </div>
        
         <div className="text-center details-div">
