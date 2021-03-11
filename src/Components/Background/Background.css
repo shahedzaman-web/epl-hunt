@@ -1,0 +1,19 @@
+.img-div{
+    position: relative;
+  text-align: center;
+  color: #ff414d;
+}
+
+.img-bg{
+    height: 45vh;
+  width: 100%;
+ 
+}
+.item-centered {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+  }

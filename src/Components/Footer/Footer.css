@@ -1,0 +1,23 @@
+.footer-style{
+    background-color: #383e56;
+    color: bisque;
+}
+a:link {
+    text-decoration: none;
+    color: #222932;
+    padding: 5px;
+    
+    font-size: 20px;
+  }
+  
+  a:visited {
+    color: #ef4f4f;
+  }
+  
+  a:hover {
+   color: #eeeeee;
+  }
+  
+  a:active {
+   color: hotpink;
+  } 

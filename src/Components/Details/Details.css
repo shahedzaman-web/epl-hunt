@@ -1,0 +1,53 @@
+.details-bg{
+    
+    background: #E4FBFF;
+background: -webkit-linear-gradient(bottom left, #E4FBFF, #F4F9F9);
+background: -moz-linear-gradient(bottom left, #E4FBFF, #F4F9F9);
+background: linear-gradient(to top right, #E4FBFF, #F4F9F9);
+   
+    
+}
+
+.teams-info{
+    background: #222932;
+background: -webkit-linear-gradient(top, #222932, #31475E);
+background: -moz-linear-gradient(top, #222932, #31475E);
+background: linear-gradient(to bottom, #222932, #31475E);
+    color: #f6f6f6;
+}
+ a:link {
+    text-decoration: none;
+    color: #222932;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  a:visited {
+    color: #ef4f4f;
+  }
+  
+  a:hover {
+   color: #eeeeee;
+  }
+  
+  a:active {
+   color: hotpink;
+  } 
+.details-div{
+  position: relative;
+  text-align: center;
+  height: 80vh;
+}
+.details-text{
+  color: #31475E;
+  padding: 50px;
+}
+    .img-centered {
+      position: absolute;
+      width: 100%;
+      opacity: 0.4;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  

@@ -1,0 +1,14 @@
+.team-info{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-bottom: 50px;
+    background: #0A122A;
+  }
+  @media only screen and (max-width: 600px) {
+    .team-info{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        background: #0A122A;
+      }
+  }
