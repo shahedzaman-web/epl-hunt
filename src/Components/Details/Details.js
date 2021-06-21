@@ -18,7 +18,7 @@ const Details = () => {
         .then(res=>res.json())
         .then(data=>setDetails(data.teams[0]));
         console.log(details)
-    })
+    },[strTeam])
    
    const {strCountry,strSport,strGender,strDescriptionEN,strFacebook,strTwitter,strInstagram,strYoutube,intFormedYear,strTeamBadge,strTeamBanner}=details;
 
