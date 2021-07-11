@@ -4,11 +4,11 @@ import './Background.css'
 import Logo from './../../Photo/logo.png'
 const Background = () => {
     return (
-        <div>
+        <div className>
             <div className="text-center img-div">
-            <img className="img-bg" src={BgPhoto} alt="" srcset=""/>
+            <img className="img-bg img-fluid" src={BgPhoto} alt="" />
             
-                <div className="item-centered">
+                <div className="item-centered pt-4">
                 <h2 >EPL Hunt</h2>
 
                <p>English Premier League Team List</p>
